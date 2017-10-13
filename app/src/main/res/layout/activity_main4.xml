@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.frontinelabs.rxsample.Main4Activity">
+
+    <com.jude.rollviewpager.RollPagerView
+        android:id="@+id/loop_view_pager3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rollviewpager_hint_color="#000000"
+        app:rollviewpager_play_delay="3000" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:indicatorName="BallPulseIndicator"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:scrollbars="vertical" android:layout_below="@+id/loop_view_pager3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

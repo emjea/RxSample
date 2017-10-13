@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_home_black_24dp"
+        title="Favorites" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_dashboard_black_24dp"
+        title="Nearby" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_notifications_black_24dp"
+        title="Friends" />
+
+    <tab
+        id="@+id/tab_transaksi"
+        icon="@drawable/ic_notifications_black_24dp"
+        title="Transaksi" />
+    <tab
+        id="@+id/tab_account"
+        icon="@drawable/ic_notifications_black_24dp"
+        title="Akun" />
+</tabs>
