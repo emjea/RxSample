@@ -22,6 +22,7 @@ class MainAdapter(listener: NewsDelegateAdapter.onViewSelectedListener) : Recycl
     }
 
     init {
+
         delegateAdapters.put(AdapterConstants.LOADING, LoadingDelegateAdapter())
         delegateAdapters.put(AdapterConstants.NEWS, NewsDelegateAdapter(listener))
         items = ArrayList()
